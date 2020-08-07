@@ -1,0 +1,469 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{3B1BE871-A313-413A-9358-369D5303F0B2}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Inicio</RootNamespace>
+    <AssemblyName>Inicio</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Bunifu.Core, Version=1.8.0.1, Culture=neutral, PublicKeyToken=e8e24ccd28363fe9, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Bunifu UI WinForms 1.8.0.1\Bunifu.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForm.BunifuShadowPanel, Version=1.8.0.1, Culture=neutral, PublicKeyToken=e8e24ccd28363fe9, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Bunifu UI WinForms 1.8.0.1\Bunifu.UI.WinForm.BunifuShadowPanel.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuButton, Version=1.8.0.1, Culture=neutral, PublicKeyToken=e8e24ccd28363fe9, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Bunifu UI WinForms 1.8.0.1\Bunifu.UI.WinForms.BunifuButton.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuCheckBox, Version=1.8.0.1, Culture=neutral, PublicKeyToken=e8e24ccd28363fe9, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Bunifu UI WinForms 1.8.0.1\Bunifu.UI.WinForms.BunifuCheckBox.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuCircleProgress, Version=1.8.0.1, Culture=neutral, PublicKeyToken=e8e24ccd28363fe9, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Bunifu UI WinForms 1.8.0.1\Bunifu.UI.WinForms.BunifuCircleProgress.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuColorTransition, Version=1.8.0.1, Culture=neutral, PublicKeyToken=e8e24ccd28363fe9, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Bunifu UI WinForms 1.8.0.1\Bunifu.UI.WinForms.BunifuColorTransition.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuDatePicker, Version=1.8.0.1, Culture=neutral, PublicKeyToken=e8e24ccd28363fe9, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Bunifu UI WinForms 1.8.0.1\Bunifu.UI.WinForms.BunifuDatePicker.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuDropdown, Version=1.8.0.1, Culture=neutral, PublicKeyToken=e8e24ccd28363fe9, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Bunifu UI WinForms 1.8.0.1\Bunifu.UI.WinForms.BunifuDropdown.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuFormDock, Version=1.8.0.1, Culture=neutral, PublicKeyToken=e8e24ccd28363fe9, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Bunifu UI WinForms 1.8.0.1\Bunifu.UI.WinForms.BunifuFormDock.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuImageButton, Version=1.8.0.1, Culture=neutral, PublicKeyToken=e8e24ccd28363fe9, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Bunifu UI WinForms 1.8.0.1\Bunifu.UI.WinForms.BunifuImageButton.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuLabel, Version=1.8.0.1, Culture=neutral, PublicKeyToken=e8e24ccd28363fe9, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Bunifu UI WinForms 1.8.0.1\Bunifu.UI.WinForms.BunifuLabel.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuPictureBox, Version=1.8.0.1, Culture=neutral, PublicKeyToken=e8e24ccd28363fe9, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Bunifu UI WinForms 1.8.0.1\Bunifu.UI.WinForms.BunifuPictureBox.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuProgressBar, Version=1.8.0.1, Culture=neutral, PublicKeyToken=e8e24ccd28363fe9, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Bunifu UI WinForms 1.8.0.1\Bunifu.UI.WinForms.BunifuProgressBar.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuRadioButton, Version=1.8.0.1, Culture=neutral, PublicKeyToken=e8e24ccd28363fe9, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Bunifu UI WinForms 1.8.0.1\Bunifu.UI.WinForms.BunifuRadioButton.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuScrollBar, Version=1.8.0.1, Culture=neutral, PublicKeyToken=e8e24ccd28363fe9, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Bunifu UI WinForms 1.8.0.1\Bunifu.UI.WinForms.BunifuScrollBar.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuTextbox, Version=1.8.0.1, Culture=neutral, PublicKeyToken=e8e24ccd28363fe9, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Bunifu UI WinForms 1.8.0.1\Bunifu.UI.WinForms.BunifuTextbox.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuTransition, Version=1.8.0.1, Culture=neutral, PublicKeyToken=e8e24ccd28363fe9, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Bunifu UI WinForms 1.8.0.1\Bunifu.UI.WinForms.BunifuTransition.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.ToggleSwitch, Version=1.8.0.1, Culture=neutral, PublicKeyToken=e8e24ccd28363fe9, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Bunifu UI WinForms 1.8.0.1\Bunifu.UI.WinForms.ToggleSwitch.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu_UI_v1.5.3, Version=1.5.3.0, Culture=neutral, PublicKeyToken=e8e24ccd28363fe9, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Downloads\Bunifu_UI_v1.5.3.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data, Version=8.0.13.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.SqlXml" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DataBase\CourseDataBase.cs" />
+    <Compile Include="DataBase\SchoolConnection.cs" />
+    <Compile Include="DataBase\SchoolDataBase.cs" />
+    <Compile Include="DTO\CourseDTO.cs" />
+    <Compile Include="DTO\DTOUser.cs" />
+    <Compile Include="DTO\FudeuDTO.cs" />
+    <Compile Include="DTO\StudentDTO.cs" />
+    <Compile Include="frmCadastro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCadastro.Designer.cs">
+      <DependentUpon>frmCadastro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmConsultar2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmConsultar2.Designer.cs">
+      <DependentUpon>frmConsultar2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmConsultDinheiro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmConsultDinheiro.Designer.cs">
+      <DependentUpon>frmConsultDinheiro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmCreditos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCreditos.Designer.cs">
+      <DependentUpon>frmCreditos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmEditarCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEditarCliente.Designer.cs">
+      <DependentUpon>frmEditarCliente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmLoading.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLoading.Designer.cs">
+      <DependentUpon>frmLoading.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLogin.Designer.cs">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMenu.Designer.cs">
+      <DependentUpon>frmMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmConsultCartao.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmConsultCartao.Designer.cs">
+      <DependentUpon>frmConsultCartao.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmPassRH.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPassRH.Designer.cs">
+      <DependentUpon>frmPassRH.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="ProgressBarColor.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="SunConnection.cs" />
+    <EmbeddedResource Include="frmCadastro.resx">
+      <DependentUpon>frmCadastro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmConsultar2.resx">
+      <DependentUpon>frmConsultar2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmConsultDinheiro.resx">
+      <DependentUpon>frmConsultDinheiro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCreditos.resx">
+      <DependentUpon>frmCreditos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEditarCliente.resx">
+      <DependentUpon>frmEditarCliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLoading.resx">
+      <DependentUpon>frmLoading.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLogin.resx">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMenu.resx">
+      <DependentUpon>frmMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmConsultCartao.resx">
+      <DependentUpon>frmConsultCartao.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPassRH.resx">
+      <DependentUpon>frmPassRH.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SR_Logo1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Banner Simone.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-login.png.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\99166-200.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pencil_icon-icons.com_69328.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\round-delete-button_icon-icons.com_72593.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pencil-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pencil_icon_gDZ_icon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pencil_icon_XCY_icon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pencil_icon_kiy_icon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pencil_icon_yAm_icon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\document_remove_icon_5Rq_icon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1458673439_search_document__magnifier_zoom_file_99B_icon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pencil.png1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\document_remove.png1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Editar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\remove.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SR_Logo11.png" />
+    <None Include="Resources\icon-cadastro.png.ico" />
+    <None Include="Resources\icon-caixa.png.ico" />
+    <None Include="Resources\icon-menu.png.ico" />
+    <None Include="Resources\personal-trainer.png" />
+    <None Include="Resources\logout.png" />
+    <None Include="Resources\personal-trainer1.png" />
+    <None Include="Resources\icons8-cartões-de-banco-64.png" />
+    <None Include="Resources\18944701_1846110808736060_483342285_n.jpg" />
+    <None Include="Resources\borracha.png" />
+    <None Include="Resources\eraser_46865.ico" />
+    <None Include="Resources\Logout_37127.ico" />
+    <None Include="Resources\Add_User-80_icon-icons.com_57380.ico" />
+    <None Include="Resources\business_application_addmale_useradd_insert_add_user_client_2312.ico" />
+    <None Include="Resources\4124802-laptop-laptop-pc-mac-macbook-notebook_113888.ico" />
+    <None Include="Resources\4124813-badge-insignia-premium-badge-quality-star-badge_113911.ico" />
+    <None Include="Resources\gear_icon-icons.com_70125.ico" />
+    <None Include="Resources\system-settings-icon_31831.ico" />
+    <None Include="Resources\settings_78352.ico" />
+    <None Include="Resources\gear_icon-icons.com_701251.ico" />
+    <None Include="Resources\3592840-cog-gear-machine-office-radio-settings-setting-settings_107729.ico" />
+    <None Include="Resources\4124802-laptop-laptop-pc-mac-macbook-notebook_1138881.ico" />
+    <None Include="Resources\4124813-badge-insignia-premium-badge-quality-star-badge_1139111.ico" />
+    <None Include="Resources\computerscreen_102708.ico" />
+    <None Include="Resources\gear_icon-icons.com_701252.ico" />
+    <None Include="Resources\icons8_Laptop.ico" />
+    <None Include="Resources\icons8_Asia.ico" />
+    <None Include="Resources\icons8_Asia_32.png" />
+    <None Include="Resources\icons8_Intelligence.ico" />
+    <None Include="Resources\icons8_Intelligence_32.png" />
+    <None Include="Resources\icons8-asia-filled-50.png" />
+    <None Include="Resources\icons8-asia-filled-50 %281%29.png" />
+    <None Include="Resources\icons8_Circled_X_32.png" />
+    <None Include="Resources\icons8_Circled_X_321.png" />
+    <None Include="Resources\icons8-asia-50 %281%29.png" />
+    <None Include="Resources\icons8_Home_32.png" />
+    <None Include="Resources\icons8_Squared_Menu_32.png" />
+    <None Include="Resources\exit_closethesession_close_6317.ico" />
+    <None Include="Resources\icons8-minimize-window-32.png" />
+    <None Include="Resources\icons8-advertisement-page-32.png" />
+    <None Include="Resources\close_delete_delete_theaction_theoutput_10252.ico" />
+    <None Include="Resources\circsimone.png" />
+    <None Include="Resources\icons8_Upload_to_Cloud_32.png" />
+    <None Include="Resources\clock.png" />
+    <None Include="Resources\icons8_Clock_32.png" />
+    <None Include="Resources\icons8-upload-to-cloud-100 %281%29.png" />
+    <None Include="Resources\icons8-watch-100.png" />
+    <None Include="Resources\icons8_Home_321.png" />
+    <None Include="Resources\icons8_Shutdown_64.png" />
+    <None Include="Resources\icons8-shutdown-100.png" />
+    <None Include="Resources\icons8-shutdown-100 %281%29.png" />
+    <None Include="Resources\loading-animations-preloader-gifs-ui-ux-effects-3.gif" />
+    <None Include="Resources\icons8_technical_support_32.png" />
+    <None Include="Resources\icons8_technical_support_64.png" />
+    <None Include="Resources\icons8-home-100.png" />
+    <None Include="Resources\icons8_User_64.png" />
+    <None Include="Resources\icons8_View_64.png" />
+    <None Include="Resources\icons8_Spa_Flower_64.png" />
+    <None Include="Resources\icons8_Flower_64.png" />
+    <None Include="Resources\icons8_Spring_64.png" />
+    <None Include="Resources\icons8_Add_User_Group_Man_Man_64.png" />
+    <None Include="Resources\icons8_Search_64.png" />
+    <None Include="Resources\icons8_Erase_64.png" />
+    <None Include="Resources\icons8-home-1001.png" />
+    <None Include="Resources\seuaOqf.gif" />
+    <None Include="Resources\icons8-save-as-100.png" />
+    <Content Include="Script do Banco.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5.2 %28x86 e x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="AxWMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="WMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

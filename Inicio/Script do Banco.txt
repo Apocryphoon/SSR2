@@ -1,0 +1,44 @@
+﻿create database u975454157_micro;
+
+use u975454157_micro;
+
+create table tb_cliente (
+
+id_cliente int primary key auto_increment,
+nm_name varchar(100) not null,
+nr_phone int not null,
+nr_cellphone int not null,
+nr_cep varchar(50) not null,
+nr_cpf varchar(50) not null,
+ds_uf varchar(2) not null,
+ds_email varchar(100) not null,
+ds_nationality varchar(20) not null
+
+
+);
+
+create table tb_gasto (
+
+id_gasto int primary key auto_increment not null,
+dt_data date not null,
+nr_entrada decimal ,
+nr_saida decimal ,
+ds_descricao varchar(50),
+ds_complemento varchar(20),
+nr_saldo int not null
+
+);
+
+
+insert into tb_cliente (nm_name, nr_phone, nr_cellphone, nr_cep, nr_cpf, ds_uf, ds_email, ds_nationality) 
+     values ('Simone', 59243833, 991893409, 04841240, 49918802898, 'SP', 'siribeiro2008@hotmail.com', 'São Paulo');
+	
+ insert into tb_gasto (dt_data, nr_entrada, nr_saida, ds_descricao, ds_complemento, nr_saldo)
+     values ('2017-09-27', 200.00, 50.00, 'Comprei Carne', 'Debito', 150);   
+    
+    
+    
+    
+ 
+select * from tb_cliente;
+select * from tb_gasto;

@@ -1,0 +1,106 @@
+c:\users\infoc35\documents\visual studio 2015\Projects\Inicio\Inicio\bin\Debug\Inicio.exe.config
+D:\Simone v3.0 by Ricardo\Inicio\Inicio\bin\Debug\Inicio.exe.config
+D:\Documento's\Ricardo\Simone v3.0 by Ricardo\Inicio\Inicio\obj\Debug\Inicio.csprojResolveAssemblyReference.cache
+D:\Documento's\Ricardo\Simone v3.0 by Ricardo\Inicio\Inicio\obj\Debug\Inicio.frmCadastro.resources
+D:\Documento's\Ricardo\Simone v3.0 by Ricardo\Inicio\Inicio\obj\Debug\Inicio.frmConsultar.resources
+D:\Documento's\Ricardo\Simone v3.0 by Ricardo\Inicio\Inicio\obj\Debug\Inicio.frmCreditos.resources
+D:\Documento's\Ricardo\Simone v3.0 by Ricardo\Inicio\Inicio\obj\Debug\Inicio.frmLogin.resources
+D:\Documento's\Ricardo\Simone v3.0 by Ricardo\Inicio\Inicio\obj\Debug\Inicio.frmMenu.resources
+D:\Documento's\Ricardo\Simone v3.0 by Ricardo\Inicio\Inicio\obj\Debug\Inicio.Properties.Resources.resources
+D:\Documento's\Ricardo\Simone v3.0 by Ricardo\Inicio\Inicio\obj\Debug\Inicio.csproj.GenerateResource.Cache
+D:\Documento's\Ricardo\Simone v3.0 by Ricardo\Inicio\Inicio\obj\Debug\Inicio.csproj.CoreCompileInputs.cache
+D:\Documento's\Ricardo\Simone v3.0 by Ricardo\Inicio\Inicio\bin\Debug\Inicio.exe.config
+D:\Documento's\Ricardo\Simone v3.0 by Ricardo\Inicio\Inicio\bin\Debug\Inicio.exe
+D:\Documento's\Ricardo\Simone v3.0 by Ricardo\Inicio\Inicio\bin\Debug\Inicio.pdb
+D:\Documento's\Ricardo\Simone v3.0 by Ricardo\Inicio\Inicio\bin\Debug\MySql.Data.dll
+D:\Documento's\Ricardo\Simone v3.0 by Ricardo\Inicio\Inicio\bin\Debug\MySql.Data.xml
+D:\Documento's\Ricardo\Simone v3.0 by Ricardo\Inicio\Inicio\obj\Debug\Inicio.exe
+D:\Documento's\Ricardo\Simone v3.0 by Ricardo\Inicio\Inicio\obj\Debug\Inicio.pdb
+D:\Projeto's\Simone v3.0 by Ricardo\Inicio\Inicio\bin\Debug\Inicio.exe.config
+D:\Projeto's\Simone v3.0 by Ricardo\Inicio\Inicio\bin\Debug\Inicio.exe
+D:\Projeto's\Simone v3.0 by Ricardo\Inicio\Inicio\bin\Debug\Inicio.pdb
+D:\Projeto's\Simone v3.0 by Ricardo\Inicio\Inicio\bin\Debug\MySql.Data.xml
+D:\Projeto's\Simone v3.0 by Ricardo\Inicio\Inicio\obj\Debug\Inicio.csprojResolveAssemblyReference.cache
+D:\Projeto's\Simone v3.0 by Ricardo\Inicio\Inicio\obj\Debug\Inicio.frmCadastro.resources
+D:\Projeto's\Simone v3.0 by Ricardo\Inicio\Inicio\obj\Debug\Inicio.frmConsultar.resources
+D:\Projeto's\Simone v3.0 by Ricardo\Inicio\Inicio\obj\Debug\Inicio.frmCreditos.resources
+D:\Projeto's\Simone v3.0 by Ricardo\Inicio\Inicio\obj\Debug\Inicio.frmLogin.resources
+D:\Projeto's\Simone v3.0 by Ricardo\Inicio\Inicio\obj\Debug\Inicio.frmMenu.resources
+D:\Projeto's\Simone v3.0 by Ricardo\Inicio\Inicio\obj\Debug\Inicio.Properties.Resources.resources
+D:\Projeto's\Simone v3.0 by Ricardo\Inicio\Inicio\obj\Debug\Inicio.csproj.GenerateResource.cache
+D:\Projeto's\Simone v3.0 by Ricardo\Inicio\Inicio\obj\Debug\Inicio.csproj.CoreCompileInputs.cache
+D:\Projeto's\Simone v3.0 by Ricardo\Inicio\Inicio\obj\Debug\Inicio.csproj.CopyComplete
+D:\Projeto's\Simone v3.0 by Ricardo\Inicio\Inicio\obj\Debug\Inicio.exe
+D:\Projeto's\Simone v3.0 by Ricardo\Inicio\Inicio\obj\Debug\Inicio.pdb
+C:\Users\Augusto\Desktop\Simone v3.0 by Ricardo\Inicio\Inicio\obj\Debug\Inicio.csprojResolveAssemblyReference.cache
+C:\Users\Augusto\Desktop\Simone v3.0 by Ricardo\Inicio\Inicio\obj\Debug\Inicio.frmCadastro.resources
+C:\Users\Augusto\Desktop\Simone v3.0 by Ricardo\Inicio\Inicio\obj\Debug\Inicio.frmConsultar.resources
+C:\Users\Augusto\Desktop\Simone v3.0 by Ricardo\Inicio\Inicio\obj\Debug\Inicio.frmCreditos.resources
+C:\Users\Augusto\Desktop\Simone v3.0 by Ricardo\Inicio\Inicio\obj\Debug\Inicio.frmLogin.resources
+C:\Users\Augusto\Desktop\Simone v3.0 by Ricardo\Inicio\Inicio\obj\Debug\Inicio.frmMenu.resources
+C:\Users\Augusto\Desktop\Simone v3.0 by Ricardo\Inicio\Inicio\obj\Debug\Inicio.Properties.Resources.resources
+C:\Users\Augusto\Desktop\Simone v3.0 by Ricardo\Inicio\Inicio\obj\Debug\Inicio.csproj.GenerateResource.Cache
+C:\Users\Augusto\Desktop\Simone v3.0 by Ricardo\Inicio\Inicio\obj\Debug\Inicio.csproj.CoreCompileInputs.cache
+C:\Users\Augusto\Desktop\Simone v3.0 by Ricardo\Inicio\Inicio\obj\Debug\Inicio.exe
+C:\Users\Augusto\Desktop\Simone v3.0 by Ricardo\Inicio\Inicio\obj\Debug\Inicio.pdb
+C:\Users\Augusto\Desktop\Simone v3.0 by Ricardo\Inicio\Inicio\bin\Debug\Inicio.exe.config
+C:\Users\Augusto\Desktop\Simone v3.0 by Ricardo\Inicio\Inicio\bin\Debug\Inicio.exe
+C:\Users\Augusto\Desktop\Simone v3.0 by Ricardo\Inicio\Inicio\bin\Debug\Inicio.pdb
+C:\Users\Augusto\Desktop\Simone v3.0 by Ricardo\Inicio\Inicio\bin\Debug\MySql.Data.xml
+C:\Users\Augusto\Desktop\Simone v3.0 by Ricardo\Inicio\Inicio\bin\Debug\MySql.Data.dll
+C:\Users\Augusto\Source\Repos\simone2\.vs\simone2\v15\Inicio\Inicio\obj\Debug\Inicio.csprojResolveAssemblyReference.cache
+C:\Users\Augusto\Source\Repos\simone2\.vs\simone2\v15\Inicio\Inicio\obj\Debug\Inicio.frmCadastro.resources
+C:\Users\Augusto\Source\Repos\simone2\.vs\simone2\v15\Inicio\Inicio\obj\Debug\Inicio.frmConsultar.resources
+C:\Users\Augusto\Source\Repos\simone2\.vs\simone2\v15\Inicio\Inicio\obj\Debug\Inicio.frmCreditos.resources
+C:\Users\Augusto\Source\Repos\simone2\.vs\simone2\v15\Inicio\Inicio\obj\Debug\Inicio.frmLogin.resources
+C:\Users\Augusto\Source\Repos\simone2\.vs\simone2\v15\Inicio\Inicio\obj\Debug\Inicio.frmMenu.resources
+C:\Users\Augusto\Source\Repos\simone2\.vs\simone2\v15\Inicio\Inicio\obj\Debug\Inicio.Properties.Resources.resources
+C:\Users\Augusto\Source\Repos\simone2\.vs\simone2\v15\Inicio\Inicio\obj\Debug\Inicio.csproj.GenerateResource.Cache
+C:\Users\Augusto\Source\Repos\simone2\.vs\simone2\v15\Inicio\Inicio\obj\Debug\Inicio.csproj.CoreCompileInputs.cache
+C:\Users\Augusto\Source\Repos\simone2\.vs\simone2\v15\Inicio\Inicio\obj\Debug\Inicio.exe
+C:\Users\Augusto\Source\Repos\simone2\.vs\simone2\v15\Inicio\Inicio\obj\Debug\Inicio.pdb
+C:\Users\Augusto\Source\Repos\simone2\.vs\simone2\v15\Inicio\Inicio\bin\Debug\Inicio.exe.config
+C:\Users\Augusto\Source\Repos\simone2\.vs\simone2\v15\Inicio\Inicio\bin\Debug\Inicio.exe
+C:\Users\Augusto\Source\Repos\simone2\.vs\simone2\v15\Inicio\Inicio\bin\Debug\Inicio.pdb
+C:\Users\Augusto\Source\Repos\simone2\.vs\simone2\v15\Inicio\Inicio\bin\Debug\MySql.Data.dll
+C:\Users\Augusto\Source\Repos\simone2\.vs\simone2\v15\Inicio\Inicio\bin\Debug\MySql.Data.xml
+C:\Users\Augusto\Source\Repos\simone2\.vs\simone2\v15\Inicio\Inicio\obj\Debug\Inicio.frmEditar.resources
+C:\Users\Ricardo\Desktop\Inicio\Inicio\bin\Debug\Inicio.exe.config
+C:\Users\Ricardo\Desktop\Inicio\Inicio\bin\Debug\Inicio.exe
+C:\Users\Ricardo\Desktop\Inicio\Inicio\bin\Debug\Inicio.pdb
+C:\Users\Ricardo\Desktop\Inicio\Inicio\bin\Debug\MySql.Data.xml
+C:\Users\Ricardo\Desktop\Inicio\Inicio\obj\Debug\Inicio.csprojResolveAssemblyReference.cache
+C:\Users\Ricardo\Desktop\Inicio\Inicio\obj\Debug\Inicio.frmCadastro.resources
+C:\Users\Ricardo\Desktop\Inicio\Inicio\obj\Debug\Inicio.FrmConsultar.resources
+C:\Users\Ricardo\Desktop\Inicio\Inicio\obj\Debug\Inicio.frmCreditos.resources
+C:\Users\Ricardo\Desktop\Inicio\Inicio\obj\Debug\Inicio.frmEditar.resources
+C:\Users\Ricardo\Desktop\Inicio\Inicio\obj\Debug\Inicio.frmLogin.resources
+C:\Users\Ricardo\Desktop\Inicio\Inicio\obj\Debug\Inicio.frmMenu.resources
+C:\Users\Ricardo\Desktop\Inicio\Inicio\obj\Debug\Inicio.Properties.Resources.resources
+C:\Users\Ricardo\Desktop\Inicio\Inicio\obj\Debug\Inicio.csproj.GenerateResource.cache
+C:\Users\Ricardo\Desktop\Inicio\Inicio\obj\Debug\Inicio.csproj.CoreCompileInputs.cache
+C:\Users\Ricardo\Desktop\Inicio\Inicio\obj\Debug\Inicio.csproj.CopyComplete
+C:\Users\Ricardo\Desktop\Inicio\Inicio\obj\Debug\Inicio.exe
+C:\Users\Ricardo\Desktop\Inicio\Inicio\obj\Debug\Inicio.pdb
+C:\Users\Ricardo-PC\Desktop\Inicio\Inicio\obj\Debug\Inicio.csprojAssemblyReference.cache
+C:\Users\Ricardo-PC\Desktop\Inicio\Inicio\obj\Debug\Inicio.frmCadastro.resources
+C:\Users\Ricardo-PC\Desktop\Inicio\Inicio\obj\Debug\Inicio.FrmConsultar.resources
+C:\Users\Ricardo-PC\Desktop\Inicio\Inicio\obj\Debug\Inicio.frmConsultar2.resources
+C:\Users\Ricardo-PC\Desktop\Inicio\Inicio\obj\Debug\Inicio.frmCreditos.resources
+C:\Users\Ricardo-PC\Desktop\Inicio\Inicio\obj\Debug\Inicio.frmEditar.resources
+C:\Users\Ricardo-PC\Desktop\Inicio\Inicio\obj\Debug\Inicio.frmHistorico.resources
+C:\Users\Ricardo-PC\Desktop\Inicio\Inicio\obj\Debug\Inicio.frmLogin.resources
+C:\Users\Ricardo-PC\Desktop\Inicio\Inicio\obj\Debug\Inicio.frmMenu.resources
+C:\Users\Ricardo-PC\Desktop\Inicio\Inicio\obj\Debug\Inicio.frmSplash.resources
+C:\Users\Ricardo-PC\Desktop\Inicio\Inicio\obj\Debug\Inicio.Properties.Resources.resources
+C:\Users\Ricardo-PC\Desktop\Inicio\Inicio\obj\Debug\Inicio.csproj.GenerateResource.cache
+C:\Users\Ricardo-PC\Desktop\Inicio\Inicio\obj\Debug\Inicio.csproj.CoreCompileInputs.cache
+C:\Users\Ricardo-PC\Desktop\Inicio\Inicio\obj\Debug\Inicio.exe
+C:\Users\Ricardo-PC\Desktop\Inicio\Inicio\obj\Debug\Inicio.pdb
+C:\Users\Ricardo-PC\Desktop\Inicio\Inicio\bin\Debug\Inicio.exe.config
+C:\Users\Ricardo-PC\Desktop\Inicio\Inicio\bin\Debug\Inicio.exe
+C:\Users\Ricardo-PC\Desktop\Inicio\Inicio\bin\Debug\Inicio.pdb
+C:\Users\Ricardo-PC\Desktop\Inicio\Inicio\bin\Debug\MySql.Data.dll
+C:\Users\Ricardo-PC\Desktop\Inicio\Inicio\bin\Debug\Google.Protobuf.dll
+C:\Users\Ricardo-PC\Desktop\Inicio\Inicio\bin\Debug\MySql.Data.xml
+C:\Users\Ricardo-PC\Desktop\Inicio\Inicio\obj\Debug\Inicio.csproj.CopyComplete
